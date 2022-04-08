@@ -71,3 +71,42 @@ img {
 .clear {
   clear: both;
 }
+
+
+/* Adding media query code per max420px */
+
+@media only screen and (max-width: 420px) {
+  .row {
+    width: 420px;
+  }
+  #lezioni,
+  #why {
+    background-color: beige;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+  }
+}
+
+/* NOTE TO EDITOR */
+/* 
+non so perchè tutti e tre i miei browser non sono responsive, 
+ho dovuto usare l'editor per testare la responsiveness 
+ma non capisco se ci sono delle falle nel layout..
+proverò a rivedere sto fine..
+ */
+
+
+
+
+
+
+
+
